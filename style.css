@@ -1,0 +1,94 @@
+.container {
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	margin: 50px auto;
+	width: 50%;
+	background-color: teal;
+	/*background-image: url("pexels-quang-nguyen-vinh-14020722.jpg");*/
+	opacity: 0.75;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+}
+
+body {
+  background: linear-gradient(to bottom, #f1f1f1, #ffffff);
+  background-image: url("pexels-quang-nguyen-vinh-14020722.jpg");
+	/*opacity: 0.5;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+input[type="file"], input[type="text"], select {
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ffffff;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+select {
+	background-color: #ffd700;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(#00b0f0, #0091d4);
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(#0091d4, #00b0f0);
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.image-credit {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 8px;
+  text-align: right;
+  color: white;
+}
+
+
+.credit {
+  font-size: 14px;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: #f4f4f4;
+  background-color: rgba(255, 255, 255, 0.1);
+}

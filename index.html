@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSV to JSON/JSON to CSV Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		  <div class="credit">
+		    <p>Portfolio of James_labdesign used in Fiverr.com</p>
+		  </div>
+		<h1>CSV | JSON Converter</h1>
+		<label for="source">Source File:</label>
+		<input type="file" id="source" name="source">
+		<label for="destination">Destination File:</label>
+		<input type="text" id="destination" name="destination">
+		<label for="conversion">Conversion Type:</label>
+		<select id="conversion" name="conversion">
+			<option value="csv-to-json">CSV to JSON</option>
+			<option value="json-to-csv">JSON to CSV</option>
+		</select>
+		<button onclick="convert()">Convert</button>
+		<div class="image-credit">
+		    <p>Photo by Quang Nguyen Vinh: https://www.pexels.com/photo/person-standing-on-rock-near-waterfall-painting-with-light-14020722/</p>
+	  	</div>
+	</div>
+	<script src="papaparse.js"></script>
+	<script src="FileSaver.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
